@@ -217,7 +217,8 @@ for s = 1, screen.count() do
 	extipwidget,
 	batterybox,
 	s == 1 and mysystray or nil,
-        --mytasklist[s],
+        --comment this out if needed
+	mytasklist[s],
         layout = awful.widget.layout.horizontal.rightleft
     }
 end
