@@ -1,24 +1,7 @@
 set nocompatible               " be iMproved
  filetype off                   " required!
 set number
- set rtp+=~/.vim/bundle/vundle/
- call vundle#rc()
-
- " let Vundle manage Vundle
- " required! 
- Bundle 'gmarik/vundle'
-
- " My Bundles here:
  "
- " original repos on github
- Bundle 'tpope/vim-fugitive'
- Bundle 'Lokaltog/vim-easymotion'
- Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
- " vim-scripts repos
- Bundle 'L9'
- Bundle 'FuzzyFinder'
- " ...
-
  filetype plugin indent on     " required!
  "
  " Brief help
@@ -28,5 +11,8 @@ set number
  " :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
  "
  " see :h vundle for more details or wiki for FAQ
- " NOTE: comments after Bundle command are not allowed..
-
+ 
+ execute pathogen#infect()
+ call pathogen#helptags() 
+ syntax on
+ filetype plugin indent on
