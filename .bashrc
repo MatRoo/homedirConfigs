@@ -86,7 +86,10 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias ls='ls -alh'
-alias phpstorm='/home/mattijs/PhpStorm/bin/phpstorm.sh &'
+alias cls='clear; ls -alh'
+alias df='df -h'
+
+alias phpstorm='/home/mattijs/PhpStorm-127.100/bin/phpstorm.sh &'
 export PATH="$HOME/PhpStorm-127.100/bin:$PATH"
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
