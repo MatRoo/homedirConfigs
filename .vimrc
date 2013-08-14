@@ -1,6 +1,13 @@
 set nocompatible               " be iMproved
  filetype off                   " required!
-set number
+
+ set rtp+=~/.vim/bundle/vundle/
+ call vundle#rc()
+
+ Bundle 'gmarik/vundle'
+ Bundle 'Valloric/YouCompleteMe'
+ Bundle 'scrooloose/nerdtree'
+ set number
  "
  filetype plugin indent on     " required!
  "
@@ -11,8 +18,9 @@ set number
  " :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
  "
  " see :h vundle for more details or wiki for FAQ
- 
- execute pathogen#infect()
- call pathogen#helptags() 
- syntax on
- filetype plugin indent on
+ "
+execute pathogen#infect()
+execute pathogen#helptags()
+autocmd vimenter * NERDTree
+syntax on
+filetype plugin indent on
