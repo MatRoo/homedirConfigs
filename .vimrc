@@ -22,5 +22,7 @@ set nocompatible               " be iMproved
 execute pathogen#infect()
 execute pathogen#helptags()
 autocmd vimenter * NERDTree
+
+let NERDTreeShowHidden=1
 syntax on
 filetype plugin indent on

@@ -88,6 +88,7 @@ alias l='ls -CF'
 alias ls='ls -alh'
 alias cls='clear; ls -alh'
 alias df='df -h'
+alias vim='VIMRUNTIME=~/.vim vim'
 
 alias phpstorm='/home/mattijs/PhpStorm-127.100/bin/phpstorm.sh &'
 export PATH="$HOME/PhpStorm-127.100/bin:$PATH"
