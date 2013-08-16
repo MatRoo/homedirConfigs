@@ -143,7 +143,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec --no-startup-id feh --bg-scale /home/mattijs/walls/wall1.jpg
+exec --no-startup-id sh hdmi-switch.sh
+exec --no-startup-id feh --bg-scale ~/walls/wall2.jpg
 
 bindsym $mod+equal exec amixer -q sset Master 5+
 bindsym $mod+minus exec amixer -q sset Master 5-

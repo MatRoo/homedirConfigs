@@ -89,8 +89,8 @@ alias ls='ls -alh'
 alias cls='clear; ls -alh'
 alias df='df -h'
 alias vim='VIMRUNTIME=~/.vim vim'
-alias i3lock='i3lock && ~/hdmi-switch.sh
 
+alias scr_top='xrandr --output HDM1-0 --pos 0x0 --output LVDS-0 --pos 0x1920'
 alias phpstorm='/home/mattijs/PhpStorm-127.100/bin/phpstorm.sh &'
 export PATH="$HOME/PhpStorm-127.100/bin:$PATH"
 # Add an "alert" alias for long running commands.  Use like so:
