@@ -1,2 +1,5 @@
 .composer/cache/*
 .weechat/logs/*
+/NetBeansProjects/netbeanstesting/nbproject/private/
+/.netbeans/
+/NetBeansProjects/netbeanstesting/dist/Debug/
